@@ -11,7 +11,7 @@ public class UsernameValidator {
         String username = sc.nextLine();
 
         //Validate the username
-        if(isValidUsername(username)){
+        if( isValidUsername(username)){
             System.out.println("Valid Username");
         } else{
             System.out.println("Invalid Username");
