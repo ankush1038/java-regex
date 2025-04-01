@@ -22,6 +22,6 @@ public class HexColorValidator {
         String regex = "^#[0-9A-Fa-f]{6}$";
 
         // Check if color code matches the pattern
-        return colorCode.matches(regex);
+        return colorCode.matches(regex) ;
     }
 }
