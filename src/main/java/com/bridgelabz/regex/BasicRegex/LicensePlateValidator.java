@@ -20,7 +20,7 @@ public class LicensePlateValidator {
     }
 
     // Method to validate license plate
-    public static boolean isValidLicensePlate(String licensePlate){
+    public static boolean  isValidLicensePlate(String licensePlate){
         // Regular expression
         String regex = "^[A-Z]{2}\\d{4}$";
 
