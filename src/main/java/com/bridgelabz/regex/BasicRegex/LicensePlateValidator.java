@@ -1,4 +1,4 @@
-package com.bridgelabz.regex;
+package com.bridgelabz.regex.BasicRegex;
 
 import java.util.Scanner;
 public class LicensePlateValidator {
