@@ -7,7 +7,7 @@ public class UsernameValidator {
         Scanner sc = new Scanner(System.in);
 
         // Prompt user into a username
-         System.out.print("Enter a username: ");
+        System.out.print("Enter a username: ");
         String username = sc.nextLine();
 
         //Validate the username
