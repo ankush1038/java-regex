@@ -10,7 +10,7 @@ public class CensorBadWords {
         String input = sc.nextLine();
 
         // Replacing bad words
-        String[] badWords = {"damn", "stupid"};
+        String[] badWords = {"damn", "stupid", "bastard"};
 
         for(String word: badWords){
             input = input.replaceAll("(?i)\\b" + word + "\\b", "*****");
