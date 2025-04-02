@@ -3,7 +3,7 @@ package com.bridgelabz.regex.Advanced;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-public class ReapitingWords {
+public class RepeatingWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class ReapitingWords {
             map.put(word, map.getOrDefault(word,0) + 1);
         }
 
-        System.out.println("Reapting Words: ");
+        System.out.println("Repeating Words: ");
         boolean found = false;
 
         for (Map.Entry<String, Integer> entry: map.entrySet()){
