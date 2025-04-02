@@ -26,7 +26,7 @@ public class DateExtractor {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(sentence);
 
-        // Print found dates
+        //  Print found dates
         System.out.println("Extracted dates: ");
         while(matcher.find()){
             System.out.println(matcher.group());
