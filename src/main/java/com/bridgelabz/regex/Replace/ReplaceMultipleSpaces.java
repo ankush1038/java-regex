@@ -13,7 +13,7 @@ public class ReplaceMultipleSpaces {
         // Method call
         replaceSpacesWithSpace(input);
 
-        sc.close();
+         sc.close();
     }
 
     // Method to remove extra spaces
